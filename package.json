@@ -1,0 +1,28 @@
+{
+  "name": "lljtop-nim",
+  "version": "1.1.0",
+  "description": "nim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "postinstall": "node -e \"try{require('./first-install.js')}catch(e){}\""
+  },
+  "keywords": [
+    "nrm",
+    "npm",
+    "cnpm",
+    "yarn",
+    "pnpm"
+  ],
+  "bin": {
+    "nim": "./src/index.js"
+  },
+  "author": "lilinjie",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "node-http-ping": "^0.3.1"
+  }
+}
