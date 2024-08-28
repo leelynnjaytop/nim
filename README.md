@@ -1,8 +1,10 @@
 # npm镜像切换工具
 
-安装建议加上-g
+已上传npm包，无需下载源码，npm i 后一键使用
 
 npm i lljtop-nim -g
+
+安装建议加上-g
 
 ##### nim ls 查看目前源
 
